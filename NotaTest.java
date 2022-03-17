@@ -16,18 +16,18 @@ public class NotaTest{
 
     @Test
     public void testNotaInvalida() {
-        System.out.println("Teste data inválida");
-        assertEquals("Data Inválida", objNota.validaNota(-1));
-        assertEquals("Data Inválida", objNota.validaNota(11));
+        System.out.println("Teste nota inválida");
+        assertEquals("Nota Inválida", objNota.validaNota(-1));
+        assertEquals("Nota Inválida", objNota.validaNota(11));
     }
     
     @Test
     public void testNotaValida() {
-        System.out.println("Teste data válida");
-        assertEquals("Data válida", objNota.validaNota(0));
-        assertEquals("Data válida", objNota.validaNota(1));
-        assertEquals("Data válida", objNota.validaNota(9));
-        assertEquals("Data válida", objNota.validaNota(10));
+        System.out.println("Teste nota válida");
+        assertEquals("Nota válida", objNota.validaNota(0));
+        assertEquals("Nota válida", objNota.validaNota(1));
+        assertEquals("Nota válida", objNota.validaNota(9));
+        assertEquals("Nota válida", objNota.validaNota(10));
     }
     
     
