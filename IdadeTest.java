@@ -25,7 +25,7 @@ public class IdadeTest{
     
     @Test
     public void testIdadeSegundo() {
-        System.out.println("Teste data válida");
+        System.out.println("Teste idade válida");
         assertEquals("Renovar a cada 5 anos", objIdade.validaIdade(50));
         assertEquals("Renovar a cada 5 anos", objIdade.validaIdade(70));
     }
@@ -38,7 +38,7 @@ public class IdadeTest{
     
     @Test
     public void testIdadeTerceiro() {
-        System.out.println("Teste data válida");
+        System.out.println("Teste idade válida");
         assertEquals("Renovar a cada 3 anos", objIdade.validaIdade(72));
     }
     @Test
