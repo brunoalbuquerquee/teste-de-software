@@ -1,3 +1,5 @@
+// Erro do código era a falta de puxar o numero para podermos testar!
+
 public class Chassi {
     
     private String numero;
@@ -11,7 +13,7 @@ public class Chassi {
     }
     
     public String getNumero() {
-        return this.numero;
+        return this.numero; //aqui foi feito o armazenamento do numero
     }
     
     public void maiusculo(){
