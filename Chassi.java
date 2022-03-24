@@ -10,6 +10,10 @@ public class Chassi {
         this.numero = numero;
     }
     
+    public String getNumero() {
+        return this.numero;
+    }
+    
     public void maiusculo(){
         this.numero = numero.toUpperCase();
     }
