@@ -15,13 +15,13 @@ public class ChassiTest{
     @Test
     public void testChassiInvalido() {
         System.out.println("Tamanho chassi invalido");
-        assertEquals("Nota Inválida", objChassi.validaChassi(-1));
+        assertEquals("Nota Inválida", objChassi.validaChassi());
     }
     
     @Test
     public void testChassiValido() {
         System.out.println("Tamanho do chassi válido");
-        assertEquals("Chassi válido", objNota.validaChassi(0));
+        assertEquals("Chassi válido", objNota.validaChassi());
     }
     
     
